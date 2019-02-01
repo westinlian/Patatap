@@ -15,4 +15,25 @@ canvas {
 body, html {
     margin: 0;
     height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+div {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 25%;
+}
+
+div #message {
+    display: inline-block;
+    background: white;
+    color: #666666;
+    font-family: "Lucida Grande", verdana, sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    border-radius: 10.56px;
+    padding: 0 16px;
 }
